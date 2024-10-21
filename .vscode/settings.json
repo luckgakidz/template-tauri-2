@@ -1,0 +1,62 @@
+{
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "explorer.compactFolders": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "[javascript][typescript][javascriptreact][typescriptreact][json][jsonc]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "biomejs.biome"
+  }
+}
+// {
+//   "editor.formatOnSave": true,
+//   "files.autoSave": "afterDelay",
+//   "files.autoSaveDelay": 1000,
+//   "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+//   "notebook.formatOnSave.enabled": true,
+//   "notebook.codeActionsOnSave": {
+//     "notebook.source.fixAll.ruff": "explicit",
+//     "notebook.source.organizeImports.ruff": "explicit"
+//   },
+//   "explorer.compactFolders": false,
+//   "editor.quickSuggestions": {
+//     "strings": true
+//   },
+//   "prettier.configPath": "prettier.config.js",
+//   "[typescriptreact]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode",
+//     "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll.eslint"]
+//   },
+//   "[typescript]": {
+//     "editor.defaultFormatter": "esbenp.prettier-vscode",
+//     "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll.eslint"]
+//   },
+//   "[jsonc]": {},
+//   "[javascript]": {},
+//   "[html]": {
+//     "editor.defaultFormatter": "vscode.html-language-features",
+//     "editor.formatOnSave": false
+//   },
+//   "[ejs]": {
+//     "editor.formatOnSave": false
+//   },
+//   "[python]": {
+//     "editor.defaultFormatter": "charliermarsh.ruff",
+//     "editor.codeActionsOnSave": {
+//       "source.fixAll.ruff": "explicit",
+//       "source.organizeImports.ruff": "explicit"
+//     }
+//   }
+//   // "typescript.tsdk": "node_modules/typescript/lib",
+//   // "files.associations": {
+//   //   "*.css": "tailwindcss"
+//   // },
+//   // "eslint.useESLintClass": true
+// }
